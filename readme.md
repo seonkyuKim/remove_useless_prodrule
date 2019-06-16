@@ -34,7 +34,7 @@ Example:
     5) B -> aa
     6) C -> aCb
 
-print production rules before/after removing useless production rules
+### Print production rules before/after removing useless production rules
 
     Before elminating useless production : 
     S -> aS
