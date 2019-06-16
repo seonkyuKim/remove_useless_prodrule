@@ -2,7 +2,7 @@
 
 In order to make it simple, I do not care lambda productions and unit productions.
 
-Let G = (V, T, S, P) be CFG, where V = {S, A, B, C} and T = {a, b}. (You can change these variables and symbols) Take production rules from user input and return production rules after removing useless productions. 
+Let G = (V, T, S, P) be CFG, where V = {S, A, B, C} and T = {a, b}. (You can change these variables and symbols) Take production rules from user input and print production rules after removing useless productions. 
 
 
 ## Language
@@ -11,18 +11,18 @@ python3
 
 ## Usage
 
-Run DFA.py
+### Run remove_useless_prodrule.py
 
-    python DFA.py
+    python3 remove_useless_prodrule.py
 
-First input : number of production rules
+### First input : number of production rules
 
 Example: 
 
     Input production rules of the CFG G = (V, T, S, P) where V = {S, A, B, C} and T = {a, b}
     1. Input the number of production rule : 6
 
-Second input : production rule of the form 'A -> ab'
+### Second input : production rule of the form 'A -> ab'
 
 Example: 
 
@@ -34,7 +34,7 @@ Example:
     5) B -> aa
     6) C -> aCb
 
-Return production rules before/after removing useless production rules
+print production rules before/after removing useless production rules
 
     Before elminating useless production : 
     S -> aS
